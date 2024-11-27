@@ -1,0 +1,77 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+    font-family: "Robot",sans-serif;
+}
+header {
+    height: 90px;
+    width: 100%;
+    background-color: #f85606;
+    color: white;
+}
+.head-top {
+    height: 30px;
+    display: flex;
+}
+.topspace {
+    width: 60px;
+}
+.topleft {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 5px;
+    font-size: 0.8rem;
+}
+/* TopRight */
+.topright {
+    width: 145px;
+    height: 30px;
+    display: flex;
+    position: absolute;
+    right: 80px;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: #0000004d;
+    padding: 0px 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    cursor: pointer;
+}
+.topright img {
+    height: 20px;
+}
+.topright p {
+    font-size: 0.9rem;
+}
+.topleft1 p {
+    cursor: pointer;
+}
+.topleft2 p {
+    cursor: pointer;
+}
+.topleft3 p {
+    cursor: pointer;
+}
+.tophover:hover{
+    color: #cdcdcd;
+}
+/* +++++++++++++++++++++Main Head+++++++++++++++++++++ */
+.mainhead {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.logo {
+    width: 120px;
+    height: 48px;
+}
+.logo img {
+    height: 48px;
+}
+.search {
+    width: 775px;;
+}

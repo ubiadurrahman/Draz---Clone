@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+    font-family: "Robot",sans-serif;
+}
+/* navbar */
+.d-navbar {
+    display: flex;
+    width: 100%;
+    height: 91px;
+    background-color: #f85606;
+}
+.topspace {
+    width: 60px;
+}
+.topleft {
+    display: flex;
+    gap: 20px;
+    font-size: 0.75rem;
+    margin: 0pc;
+}
+.topleft1 a {
+    cursor: pointer;
+}
+.topleft2 a {
+    cursor: pointer;
+}
+.topleft3 a {
+    cursor: pointer;
+}
+.nav-anch {
+    color: white;
+    text-decoration: none;
+}
+.navbar-span {
+    color: white;
+    font-size: 13px;
+}
+.navbar-span:hover {
+    color: #cdcdcd;
+}
+.navbar-s-logo {
+    width: 145px;
+    height: 29px;
+    display: flex;
+    align-items: center;
+    background-color: #d44c08;
+    position: absolute;
+    right: 80px;
+    padding: 0px 7px 0px 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.navbar-s-img {
+    background-image: url("download\ \(1\).png");
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    margin: 0px 7px 0px 0px;
+}
+
+/* logo-bar */
+.logo-bar {
+    width: 1188px;
+    height: 66px;
+    background-color: #f85606;
+}

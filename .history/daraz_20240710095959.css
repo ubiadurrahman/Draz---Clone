@@ -1,0 +1,10 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+    font-family: "Robot",sans-serif;
+}
+header {
+    height: 90px;
+    width: 100%;
+}
